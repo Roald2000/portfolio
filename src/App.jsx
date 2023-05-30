@@ -22,6 +22,7 @@ import xamppBackEndLogo from './assets/backend/xampp.svg';
 const App = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isNavVisible, setIsNavVisible] = useState(true);
+
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   useEffect(() => {
